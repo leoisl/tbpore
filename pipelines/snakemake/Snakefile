@@ -28,7 +28,7 @@ rule run_tbpore:
         directory(f"{tbpore_process_outdir}/{{sample}}")
     threads: 1
     resources:
-        mem_mb=lambda wildcards, attempt: 20000 * attempt
+        mem_mb=lambda wildcards, attempt: 15000 * attempt
     log:
         "logs/run_tbpore_{sample}.log"
     shell:
