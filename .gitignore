@@ -149,3 +149,4 @@ tmp/
 /tests/helpers/logs/
 /pipelines/snakemake/.snakemake/
 /tests/data/psdm_matrix/clusters.txt
+.ipynb_checkpoints
